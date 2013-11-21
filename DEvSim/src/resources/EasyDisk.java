@@ -1,6 +1,8 @@
 package resources;
 
-public class Disk implements Storage {
+public class EasyDisk implements Storage {
+	
+	private int cost;
 
 	@Override
 	public Block read(int block) {

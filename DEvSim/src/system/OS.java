@@ -1,19 +1,22 @@
 package system;
 
+import java.util.Queue;
+
+import process.Event;
 import resources.Block;
 
 public class OS {
 
-	static Block pm[];
-	static Block vm[];
+	static Queue<Event> eventQueue;
 
 	public static void main(String[] args) {
-		pm = new Block[30];
-		vm = new Block[10];
+		
 	}
 	
 	public void iterate() {
 		
 	}
+	
+	
 
 }
