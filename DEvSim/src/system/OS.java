@@ -8,6 +8,7 @@ import resources.Block;
 public class OS {
 
 	static Queue<Event> eventQueue;
+	public static int TIME;
 
 	public static void main(String[] args) {
 		

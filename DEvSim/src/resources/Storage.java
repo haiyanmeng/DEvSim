@@ -4,5 +4,5 @@ public interface Storage {
 
 	Block read(int block);
 	
-	void write(int loc, Block block);
+	int write(Block block);
 }
